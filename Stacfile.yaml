@@ -1,11 +1,10 @@
 # This is an example of how a Stacfile should be
 pipeline:
-  - type: "routine"
-    commands:
-      - "echo hello world from first routine!"
-  - type: "routine"
-    commands:
-      - "echo hello world from second routine!"
-  - type: "sequential"
-    commands:
-      - "echo hello world from sequential!"
+  - commands:
+      - echo 'hello world from first job (1)!'
+      - echo 'hello world from first job (2)!'
+      - echo 'hello world from first job (3)!'
+  - commands:
+      - echo 'hello world from second job!'
+  - commands:
+      - echo 'hello world from third job!'
