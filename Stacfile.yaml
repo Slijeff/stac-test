@@ -8,3 +8,4 @@ pipeline:
       - echo 'hello world from second job!'
   - commands:
       - echo 'hello world from third job!'
+      - ls
