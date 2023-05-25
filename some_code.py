@@ -1,3 +1,1 @@
-import stuff
-
-print(stuff)
+print("some_code is executed.")
