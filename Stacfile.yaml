@@ -9,3 +9,5 @@ pipeline:
   - commands:
       - echo 'hello world from third job!'
       - ls
+  - commands:
+      - python repos/stac-test/some_code.py
